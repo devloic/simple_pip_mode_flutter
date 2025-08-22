@@ -25,6 +25,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace 'cl.puntito.simple_pip_mode'
     compileSdkVersion 31
 
     compileOptions {
